@@ -1,0 +1,16 @@
+{
+    "preset": "airbnb",
+    "requireBlocksOnNewline": null,
+    "requirePaddingNewLinesAfterBlocks": null,  
+    "disallowTrailingWhitespace": null,
+    "requireCurlyBraces": true,
+    "validateIndentation": null,
+    "validateLineBreaks": null,
+    "requireLineFeedAtFileEnd": null,
+    "disallowSpacesInNamedFunctionExpression": null,
+    "disallowSpacesInFunctionExpression": null,
+    "disallowSpacesInAnonymousFunctionExpression": null,
+    "disallowSpacesInFunctionDeclaration": null,
+    "requireTrailingComma": null
+}
+
