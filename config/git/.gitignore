@@ -1,0 +1,11 @@
+# Mac OSX
+.DS_Store
+._.DS_Store
+
+# Packages
+node_modules/
+bower_components/
+npm-debug.log
+
+# Build
+build/
