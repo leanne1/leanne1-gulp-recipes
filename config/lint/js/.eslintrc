@@ -1,0 +1,17 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "rules": {
+        "comma-dangle": [2, "never"],
+        "indent": [2, "tab"],
+        "strict": [1, "global"],
+        "no-var": 0,
+        "no-param-reassign": 0,
+        "new-cap": [1, {"capIsNewExceptions": ["Map", "List", "Record"]}],
+        "no-unused-vars": 0,
+        "prefer-const": 0,
+        "space-before-blocks": 0,
+        "func-names": 0,
+        "react/jsx-boolean-value": 0
+    }
+}
