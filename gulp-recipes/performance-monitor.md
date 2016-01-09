@@ -11,11 +11,11 @@ gulp.task('perf', function () {
    performance('mobile');
 });
 
-function performance ( strategy ) {
+function performance (strategy) {
     return psi('http://mysite.com', {
         nokey: 'true',
         strategy: strategy,
-    }, function ( err, data ) {
+    }).then(function (data) {
         console.log('PSI ' + strategy + ' score is:', data.score);
         console.log('PSI ' + strategy + ' page stats:', data.pageStats);
     });

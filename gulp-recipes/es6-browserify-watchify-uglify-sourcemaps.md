@@ -22,8 +22,11 @@ The task works by wrapping browserify in a watchify wrapper. Watchify handles wa
 
 The recipe allows you to set up multiple entry-bundle pairs, so you can create, watch and build multiple browserify bundles in the same project. Generally you will only have a single ```site.*.js``` bundle per microsite but you might need a second if you are also generating a ```page.*.js``` bundle.
 
+## Use with .babelrc
+The recipe uses the browerify babelify transform to add ES6 support via Babel. Babel uses a `.babelrc` config file which can be installed from this repo in `config/transpilers`. For each Babel plugin you wish to use, `npm install` the plugin and add it to the `plugins` array in the `.babelrc`.
+
 ```js
-// npm install --save-dev browserify watchify babelify vinyl-source-stream vinyl-buffer gulp-util gulp-sourcemaps lodash.assign gulp-uglify gulp-rename
+// npm install --save-dev browserify watchify babelify vinyl-source-stream vinyl-buffer gulp-util gulp-sourcemaps lodash.assign gulp-uglify gulp-rename babel-plugin-transform-decorators-legacy
 
 var gulp = require('gulp');
 var browserify = require('browserify');
