@@ -1,9 +1,6 @@
 {
   "name": "leanne1-gulp-recipes",
   "homepage": "https://github.com/leanne1/leanne1-gulp-recipes",
-  "authors": [
-    "leanne <leanne.tite@gmail.com>"
-  ],
   "description": "Colection of gulp recipes and installable config",
   "main": "",
   "moduleType": [],
